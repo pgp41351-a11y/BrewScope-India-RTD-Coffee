@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BrewScope — India RTD Coffee Market Monitor</title>
+<style>
+:root{--bg:#f5eee7;--ink:#2a1d16;--muted:#7b6658;--card:#fffaf5;--coffee:#6e4129;--gold:#d8a25e;--line:#dfcdbb;--green:#47745b}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Arial,sans-serif}
+header{background:#2a1d16;color:#fff;padding:14px 20px;display:flex;justify-content:space-between;gap:15px;font-size:12px}
+.wrap{max-width:1100px;margin:auto;padding:18px}.hero{background:linear-gradient(135deg,#4a2a1d,#9b5f40);color:#fff;border-radius:22px;overflow:hidden;display:grid;grid-template-columns:1.05fr .95fr}
+.hero-copy{padding:30px}.hero-image{background:center/cover no-repeat url('assets/coffee-dashboard.png');min-height:270px}
+.eyebrow{font-size:10px;text-transform:uppercase;letter-spacing:.14em;opacity:.75}
+h1{font:42px Georgia,serif;line-height:1.05;margin:8px 0}h2{margin:4px 0 10px}.sub{font-size:12px;color:var(--muted);line-height:1.5}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:12px 0}.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:15px}.big{font-size:26px;font-weight:850}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:15px 0}.tab{border:1px solid var(--line);background:#fff7ef;border-radius:999px;padding:9px 12px;cursor:pointer;font-weight:750}.tab.on{background:var(--coffee);color:#fff}
+.page{display:none}.page.on{display:block}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.callout{background:#fff0df;border-left:4px solid var(--coffee);border-radius:10px;padding:13px;line-height:1.5}
+table{width:100%;border-collapse:collapse}.tablewrap{overflow:auto;max-height:430px}th,td{padding:8px;border-bottom:1px solid #eadfd4;text-align:left;font-size:12px}th{font-size:10px;text-transform:uppercase;color:var(--muted);position:sticky;top:0;background:var(--card)}
+.badge{display:inline-block;padding:4px 7px;border-radius:99px;background:#f0dfcf;font-size:10px}.ok{color:var(--green);font-weight:800}.event{border-left:3px solid var(--gold);padding:10px 12px;margin:8px 0;background:#fff7ee;border-radius:8px}
+select,input{font:inherit;width:100%;padding:9px;border-radius:9px;border:1px solid var(--line);background:#fff}
+@media(max-width:800px){.hero,.grid2{grid-template-columns:1fr}.kpis{grid-template-columns:1fr 1fr}.grid3{grid-template-columns:1fr}}
+@media(max-width:480px){.kpis{grid-template-columns:1fr}}
+</style></head>
+<body>
+<header><b>☕ BrewScope</b><span>🇮🇳 India RTD Coffee • Automated monitor architecture</span></header>
+<div class="wrap">
+<section class="hero">
+<div class="hero-copy"><div class="eyebrow">AMS Capstone • Topic 3</div><h1>Watch the category. Find the gap.</h1>
+<p>Keep the market lens simple: what is on the shelf, what changed, and what it means for Sleepy Owl.</p>
+<div class="callout"><b>Working opportunity:</b> Study / Work Focus Latte • 200 ml • ₹59–₹79 • ₹79 ceiling</div></div>
+<div class="hero-image"></div>
+</section>
+
+<div class="kpis">
+<div class="card"><div class="eyebrow">Indian SKUs</div><div class="big" id="sku">—</div><div class="sub">verified shelf sample</div></div>
+<div class="card"><div class="eyebrow">Brands</div><div class="big" id="brands">—</div><div class="sub">mass → specialty</div></div>
+<div class="card"><div class="eyebrow">Last verified</div><div class="big" id="date">—</div><div class="sub">current dataset</div></div>
+<div class="card"><div class="eyebrow">Target price</div><div class="big">₹79</div><div class="sub">maximum test price</div></div>
+</div>
+
+<div class="tabs">
+<button class="tab on" data-id="overview">Market</button>
+<button class="tab" data-id="monitor">Monitor</button>
+<button class="tab" data-id="gap">Gap</button>
+<button class="tab" data-id="decision">Decision</button>
+</div>
+
+<section id="overview" class="page on">
+<div class="grid2">
+<div class="card"><div class="eyebrow">Competitive shelf</div><h2>India-only sample</h2>
+<div class="tablewrap"><table><thead><tr><th>Brand</th><th>Product</th><th>Pack</th><th>₹/100ml</th></tr></thead><tbody id="marketTable"></tbody></table></div></div>
+<div class="card"><div class="eyebrow">Simple takeaway</div><h2>Price is not the gap.</h2>
+<p class="sub">Mass players compete on accessible prices; specialty coffee can carry a premium. The opportunity needs an additional job-to-be-done.</p>
+<div class="callout"><b>Consumer signal:</b> RTD is occasional because fresh coffee is preferred; convenience and caffeine become more valuable for late-night study/work.</div>
+</div></div>
+</section>
+
+<section id="monitor" class="page">
+<div class="card"><div class="eyebrow">Automated source monitoring</div><h2>What changed?</h2>
+<p class="sub">The GitHub Action runs daily, checks selected Indian/brand sources, compares the latest page snapshot with the previous snapshot, and writes a change log.</p>
+<div id="events"></div>
+<p class="sub" id="monitorEmpty"></p>
+</div>
+</section>
+
+<section id="gap" class="page">
+<div class="card"><div class="eyebrow">From market data to strategy</div><h2>Why this gap?</h2>
+<div class="grid3">
+<div class="card"><div class="eyebrow">1</div><b>Protein</b><p class="sub">Already occupied by visible RTD/protein coffee players.</p></div>
+<div class="card"><div class="eyebrow">2</div><b>Generic focus</b><p class="sub">Not empty; specialist focus RTD already exists.</p></div>
+<div class="card"><div class="eyebrow">3</div><b>Study / work focus</b><p class="sub">Narrower job + accessible target price + Sleepy Owl fit.</p></div>
+</div>
+<div class="callout"><b>Current hypothesis:</b> a simple coffee-first RTD for the late-night study/work moment, not an overloaded wellness drink.</div>
+</div>
+</section>
+
+<section id="decision" class="page">
+<div class="card"><div class="eyebrow">Managerial recommendation</div><h2>Proceed to concept development, not full launch.</h2>
+<div class="grid3">
+<div><b>Product</b><p class="sub">200 ml coffee-first milk format; measured moderate caffeine; controlled sugar.</p></div>
+<div><b>Price</b><p class="sub">₹59–₹79 corridor; ₹79 ceiling.</p></div>
+<div><b>Channel</b><p class="sub">Quick-commerce first, because immediate availability is part of the consumer job.</p></div>
+</div>
+<div class="callout" style="margin-top:12px"><b>Evidence rule:</b> monitor the category over time. If a competitor launches a close substitute or shifts materially on price/functional claims, the opportunity score should be revisited.</div>
+</div>
+<div class="card" style="margin-top:10px"><div class="eyebrow">AI → human</div>
+<p class="sub">AI proposed “premium cold brew for Gen Z.” The team rejected the broad positioning, rejected protein as crowded, challenged generic focus after finding NERV, and narrowed the opportunity using the observed shelf and consumer input.</p></div>
+</section>
+</div>
+<script>
+async function getJSON(p){const r=await fetch(p);if(!r.ok)throw new Error(p);return r.json()}
+function show(id){document.querySelectorAll('.page').forEach(x=>x.classList.remove('on'));document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));document.getElementById(id).classList.add('on');document.querySelector('[data-id="'+id+'"]').classList.add('on')}
+document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>show(t.dataset.id))
+Promise.all([getJSON('data/current.json'),getJSON('data/changes.json')]).then(([cur,changes])=>{
+ document.getElementById('sku').textContent=cur.observations.length;
+ document.getElementById('brands').textContent=new Set(cur.observations.map(x=>x.brand)).size;
+ document.getElementById('date').textContent=cur.last_checked;
+ document.getElementById('marketTable').innerHTML=cur.observations.map(x=>`<tr><td><b>${x.brand}</b></td><td>${x.product}</td><td>${x.pack_ml} ml</td><td>₹${x.price_per_100ml}</td></tr>`).join('');
+ const recent=changes.slice(0,12);
+ document.getElementById('events').innerHTML=recent.length?recent.map(run=>`<div class="event"><b>${run.brand}</b><div class="sub">${new Date(run.checked_at).toLocaleString()}</div>${run.events.map(e=>`<div class="sub">• ${e.detail}</div>`).join('')}</div>`).join(''):'<div class="callout"><span class="ok">No recorded changes yet.</span><br><span class="sub">Run the monitor workflow after deployment to create the first comparison snapshot.</span></div>';
+ document.getElementById('monitorEmpty').textContent='Sources are checked by the scheduled GitHub Action; the browser only displays the latest committed state.';
+}).catch(err=>{
+ document.getElementById('events').innerHTML='<div class="callout">Market data could not be loaded. On GitHub Pages, make sure the repository is deployed with the /data folder intact.</div>';
+})
+</script>
+</body></html>
