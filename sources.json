@@ -1,0 +1,27 @@
+[
+  {
+    "brand": "Nescaf\u00e9",
+    "url": "https://www.nestle.in/aboutus/businesses/foods-beverages/coffee",
+    "kind": "official_brand"
+  },
+  {
+    "brand": "Sleepy Owl",
+    "url": "https://sleepyowl.co/collections/cold-brew-coffee",
+    "kind": "official_brand"
+  },
+  {
+    "brand": "POKKA",
+    "url": "https://pokkaindia.com/collections/coffee",
+    "kind": "official_brand"
+  },
+  {
+    "brand": "Blue Tokai",
+    "url": "https://bluetokaicoffee.com/collections/coffee-cans",
+    "kind": "official_brand"
+  },
+  {
+    "brand": "NERV",
+    "url": "https://www.nerv.in/",
+    "kind": "official_brand"
+  }
+]

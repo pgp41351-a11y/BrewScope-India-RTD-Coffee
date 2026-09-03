@@ -1,0 +1,237 @@
+{
+  "market_scope": "India",
+  "category": "Ready-to-Drink (RTD) Coffee",
+  "focal_brand": "Sleepy Owl",
+  "last_checked": "2026-09-03",
+  "observations": [
+    {
+      "brand": "Nescafe",
+      "product": "Cafe Style Iced Latte",
+      "pack_ml": 170.0,
+      "price_inr": 50.0,
+      "price_per_100ml": 29.41,
+      "positioning": "Mass",
+      "source": "Blinkit",
+      "checked_date": "2026-09-03",
+      "source_url": "https://blinkit.com/cn/cold-coffee/cid/332/412"
+    },
+    {
+      "brand": "Nescafe",
+      "product": "Ready to Drink Iced Latte",
+      "pack_ml": 180.0,
+      "price_inr": 41.0,
+      "price_per_100ml": 22.78,
+      "positioning": "Mass",
+      "source": "Blinkit",
+      "checked_date": "2026-09-03",
+      "source_url": "https://blinkit.com/prn/product/prid/309628"
+    },
+    {
+      "brand": "Nescafe",
+      "product": "Choco Latte",
+      "pack_ml": 200.0,
+      "price_inr": 75.0,
+      "price_per_100ml": 37.5,
+      "positioning": "Mass",
+      "source": "Blinkit",
+      "checked_date": "2026-09-03",
+      "source_url": "https://blinkit.com/cn/cold-coffee/cid/332/412"
+    },
+    {
+      "brand": "Nescafe",
+      "product": "Caramel Latte",
+      "pack_ml": 200.0,
+      "price_inr": 80.0,
+      "price_per_100ml": 40.0,
+      "positioning": "Mass",
+      "source": "Blinkit",
+      "checked_date": "2026-09-03",
+      "source_url": "https://blinkit.com/cn/cold-coffee/cid/332/412"
+    },
+    {
+      "brand": "Nescafe",
+      "product": "Intense Cafe / Cappuccino",
+      "pack_ml": 180.0,
+      "price_inr": 40.0,
+      "price_per_100ml": 22.22,
+      "positioning": "Mass",
+      "source": "Blinkit",
+      "checked_date": "2026-09-03",
+      "source_url": "https://blinkit.com/cn/cold-coffee/cid/332/412"
+    },
+    {
+      "brand": "BRU",
+      "product": "Classic Cold Coffee",
+      "pack_ml": 220.0,
+      "price_inr": 90.0,
+      "price_per_100ml": 40.91,
+      "positioning": "Mass",
+      "source": "Blinkit",
+      "checked_date": "2026-09-03",
+      "source_url": "https://blinkit.com/prn/product/prid/524660"
+    },
+    {
+      "brand": "BRU",
+      "product": "Hazelnut Cold Coffee",
+      "pack_ml": 230.0,
+      "price_inr": 90.0,
+      "price_per_100ml": 39.13,
+      "positioning": "Mass",
+      "source": "Blinkit",
+      "checked_date": "2026-09-03",
+      "source_url": "https://blinkit.com/prn/x/prid/524660"
+    },
+    {
+      "brand": "Cavin's",
+      "product": "Choco Mocha Cold Coffee",
+      "pack_ml": 170.0,
+      "price_inr": 53.0,
+      "price_per_100ml": 31.18,
+      "positioning": "Mass",
+      "source": "Blinkit",
+      "checked_date": "2026-09-03",
+      "source_url": "https://blinkit.com/cn/cold-coffee-ice-tea/cid/332/1953"
+    },
+    {
+      "brand": "Cavin's",
+      "product": "Creamy Latte Cold Coffee",
+      "pack_ml": 170.0,
+      "price_inr": 48.0,
+      "price_per_100ml": 28.24,
+      "positioning": "Mass",
+      "source": "Blinkit",
+      "checked_date": "2026-09-03",
+      "source_url": "https://blinkit.com/cn/cold-coffee-ice-tea/cid/332/1953"
+    },
+    {
+      "brand": "Cavin's",
+      "product": "No Added Sugar Cold Coffee",
+      "pack_ml": 170.0,
+      "price_inr": 56.0,
+      "price_per_100ml": 32.94,
+      "positioning": "Mass",
+      "source": "Blinkit",
+      "checked_date": "2026-09-03",
+      "source_url": "https://blinkit.com/prn/cavins-ready-to-drink-cold-coffee/prid/775054"
+    },
+    {
+      "brand": "Cavin's",
+      "product": "Chilled Latte Cold Coffee",
+      "pack_ml": 180.0,
+      "price_inr": 36.0,
+      "price_per_100ml": 20.0,
+      "positioning": "Mass",
+      "source": "Blinkit",
+      "checked_date": "2026-09-03",
+      "source_url": "https://blinkit.com/cn/cold-coffee-ice-tea/cid/332/1953"
+    },
+    {
+      "brand": "Amul",
+      "product": "Kool Cafe Milk 'n' Coffee",
+      "pack_ml": 200.0,
+      "price_inr": 35.0,
+      "price_per_100ml": 17.5,
+      "positioning": "Mass",
+      "source": "Blinkit",
+      "checked_date": "2026-09-03",
+      "source_url": "https://blinkit.com/cn/cold-coffee-ice-tea/cid/332/1953"
+    },
+    {
+      "brand": "Avvatar",
+      "product": "Classic Cold Coffee",
+      "pack_ml": 250.0,
+      "price_inr": 99.0,
+      "price_per_100ml": 39.6,
+      "positioning": "Functional/Protein",
+      "source": "Blinkit",
+      "checked_date": "2026-09-03",
+      "source_url": "https://blinkit.com/dc/drinks-juices/cold-coffee-ice-tea/"
+    },
+    {
+      "brand": "Avvatar",
+      "product": "Vanilla Cold Coffee",
+      "pack_ml": 250.0,
+      "price_inr": 99.0,
+      "price_per_100ml": 39.6,
+      "positioning": "Functional/Protein",
+      "source": "Blinkit",
+      "checked_date": "2026-09-03",
+      "source_url": "https://blinkit.com/dc/drinks-juices/cold-coffee-ice-tea/"
+    },
+    {
+      "brand": "Sleepy Owl",
+      "product": "Classic Cold Coffee Can",
+      "pack_ml": 230.0,
+      "price_inr": 99.0,
+      "price_per_100ml": 43.04,
+      "positioning": "Specialty",
+      "source": "Blinkit",
+      "checked_date": "2026-09-03",
+      "source_url": "https://blinkit.com/prn/sleepy-owl-classic-cold-coffee-can/prid/482839"
+    },
+    {
+      "brand": "Sleepy Owl",
+      "product": "Hazelnut Cold Coffee Can",
+      "pack_ml": 230.0,
+      "price_inr": 99.0,
+      "price_per_100ml": 43.04,
+      "positioning": "Specialty",
+      "source": "Blinkit",
+      "checked_date": "2026-09-03",
+      "source_url": "https://blinkit.com/prn/sleepy-owl-classic-cold-coffee-can/prid/482839"
+    },
+    {
+      "brand": "Sleepy Owl",
+      "product": "French Vanilla Cold Coffee Can",
+      "pack_ml": 230.0,
+      "price_inr": 99.0,
+      "price_per_100ml": 43.04,
+      "positioning": "Specialty",
+      "source": "Blinkit",
+      "checked_date": "2026-09-03",
+      "source_url": "https://blinkit.com/prn/sleepy-owl-classic-cold-coffee-can/prid/482839"
+    },
+    {
+      "brand": "Sleepy Owl",
+      "product": "Black Cold Brew Coffee",
+      "pack_ml": 230.0,
+      "price_inr": 129.0,
+      "price_per_100ml": 56.09,
+      "positioning": "Specialty",
+      "source": "Blinkit",
+      "checked_date": "2026-09-03",
+      "source_url": "https://blinkit.com/dc/drinks-juices/cold-coffee-ice-tea/"
+    },
+    {
+      "brand": "Blue Tokai",
+      "product": "Classic Cold Coffee",
+      "pack_ml": 220.0,
+      "price_inr": 139.0,
+      "price_per_100ml": 63.18,
+      "positioning": "Specialty",
+      "source": "Blinkit",
+      "checked_date": "2026-09-03",
+      "source_url": "https://blinkit.com/prn/blue-tokai-classic-cold-coffee/prid/553817"
+    },
+    {
+      "brand": "Blue Tokai",
+      "product": "Classic Iced Latte Cold Coffee",
+      "pack_ml": 220.0,
+      "price_inr": 139.0,
+      "price_per_100ml": 63.18,
+      "positioning": "Specialty",
+      "source": "Blinkit",
+      "checked_date": "2026-09-03",
+      "source_url": "https://blinkit.com/prn/blue-tokai-classic-iced-latte-cold-coffee/prid/520591"
+    }
+  ],
+  "hypothesis": {
+    "name": "Sleepy Owl Study / Work Focus Latte",
+    "pack_ml": 200,
+    "price_ceiling": 79,
+    "price_corridor": "₹59–₹79",
+    "occasion": "Late-night study / desk work",
+    "functional_job": "Focus",
+    "status": "Proceed to concept development/testing"
+  }
+}
