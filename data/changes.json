@@ -2,6 +2,28 @@
   {
     "brand": "Nescafé",
     "url": "https://www.nestle.in/aboutus/businesses/foods-beverages/coffee",
+    "checked_at": "2026-09-03T19:57:39.989818+00:00",
+    "events": [
+      {
+        "type": "monitor_error",
+        "detail": "403 Client Error: Forbidden for url: https://www.nestle.in/aboutus/businesses/foods-beverages/coffee"
+      }
+    ]
+  },
+  {
+    "brand": "NERV",
+    "url": "https://www.nerv.in/",
+    "checked_at": "2026-09-03T19:57:39.989818+00:00",
+    "events": [
+      {
+        "type": "monitor_error",
+        "detail": "HTTPSConnectionPool(host='www.nerv.in', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.nerv.in', port=443): Failed to resolve 'www.nerv.in' ([Errno -2] Name or service not known)\"))"
+      }
+    ]
+  },
+  {
+    "brand": "Nescafé",
+    "url": "https://www.nestle.in/aboutus/businesses/foods-beverages/coffee",
     "checked_at": "2026-09-03T19:45:05.471246+00:00",
     "events": [
       {
