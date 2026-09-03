@@ -98,7 +98,7 @@ Promise.all([getJSON('data/current.json'),getJSON('data/changes.json')]).then(([
  document.getElementById('brands').textContent=new Set(cur.observations.map(x=>x.brand)).size;
  document.getElementById('date').textContent=cur.last_checked;
  document.getElementById('marketTable').innerHTML=cur.observations.map(x=>`<tr><td><b>${x.brand}</b></td><td>${x.product}</td><td>${x.pack_ml} ml</td><td>₹${x.price_per_100ml}</td></tr>`).join('');
- const recent=changes.slice(0,12);
+ const recent=changes.slice(-12).reverse();
  document.getElementById('events').innerHTML=recent.length?recent.map(run=>`<div class="event"><b>${run.brand}</b><div class="sub">${new Date(run.checked_at).toLocaleString()}</div>${run.events.map(e=>`<div class="sub">• ${e.detail}</div>`).join('')}</div>`).join(''):'<div class="callout"><span class="ok">No recorded changes yet.</span><br><span class="sub">Run the monitor workflow after deployment to create the first comparison snapshot.</span></div>';
  document.getElementById('monitorEmpty').textContent='Sources are checked by the scheduled GitHub Action; the browser only displays the latest committed state.';
 }).catch(err=>{
