@@ -99,6 +99,6 @@ Promise.all([getJSON('data/current.json'),getJSON('data/changes.json')]).then(([
  document.getElementById('date').textContent=cur.last_checked;
  document.getElementById('marketTable').innerHTML=cur.observations.map(x=>`<tr><td><b>${x.brand}</b></td><td>${x.product}</td><td>${x.pack_ml} ml</td><td>₹${x.price_per_100ml}</td></tr>`).join('');
  const recent=changes.slice(-12).reverse();
-document.getElementById('events').innerHTML=recent.length?recent.map(e=>`<div class="event"><b>${e.brand}</b><div class="sub">${new Date(e.checked_at).toLocaleString()}</div>${e.events.map(x=>`<div class="sub">• ${x.detail}</div>`).join('')}</div>`).join(''):'<div class="callout"><span class="ok">No recorded changes yet.</span></div>';
+document.getElementById('events').innerHTML=recent.length?recent.map(e=>`<div class="event"><b>${e.brand}</b><div class="sub">${new Date(e.checked_at).toLocaleString()}</div>${e.events.map(x=>`<div class="sub">• ${x.detail}</div>`).join('')}</div>`).join(''):'<div class="callout"><span class="ok">No recorded changes yet.</span></div>';});
 </script>
 </body></html>
