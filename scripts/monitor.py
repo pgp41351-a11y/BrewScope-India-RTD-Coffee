@@ -95,8 +95,9 @@ def main():
             sig["checked_at"] = checked
             sig["http_status"] = r.status_code
             events = classify_change(state.get(key), sig)
-            if events:
-                run_events.append({"brand":s["brand"],"url":s["url"],"checked_at":checked,"events":events})
+if not events:
+    events = [{"type":"no_change","detail":"No material change detected since previous check."}]
+run_events.append({"brand":s["brand"],"url":s["url"],"checked_at":checked,"events":events})
             state[key] = sig | {"brand":s["brand"],"kind":s.get("kind","source")}
         except Exception as e:
             run_events.append({"brand":s["brand"],"url":s["url"],"checked_at":checked,
