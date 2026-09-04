@@ -1,6 +1,28 @@
 [
   {
     "brand": "Nescafé",
+    "url": "https://www.nestle.in/brands/dairy/nescafe-cold-coffee",
+    "checked_at": "2026-09-04T12:32:44.857703+00:00",
+    "events": [
+      {
+        "type": "monitor_error",
+        "detail": "403 Client Error: Forbidden for url: https://www.nestle.in/brands/dairy/nescafe-cold-coffee"
+      }
+    ]
+  },
+  {
+    "brand": "NERV",
+    "url": "https://drinknerv.com/",
+    "checked_at": "2026-09-04T12:32:44.857703+00:00",
+    "events": [
+      {
+        "type": "new_source_snapshot",
+        "detail": "First successful observation recorded."
+      }
+    ]
+  },
+  {
+    "brand": "Nescafé",
     "url": "https://www.nestle.in/aboutus/businesses/foods-beverages/coffee",
     "checked_at": "2026-09-04T12:24:53.791030+00:00",
     "events": [
