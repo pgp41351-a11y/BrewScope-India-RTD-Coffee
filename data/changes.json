@@ -1,6 +1,17 @@
 [
   {
     "brand": "Nescafé",
+    "url": "https://blinkit.com/prn/nescafe-cafe-style-iced-latte/prid/400926",
+    "checked_at": "2026-09-04T12:40:38.165137+00:00",
+    "events": [
+      {
+        "type": "monitor_error",
+        "detail": "403 Client Error: Forbidden for url: https://blinkit.com/prn/nescafe-cafe-style-iced-latte/prid/400926"
+      }
+    ]
+  },
+  {
+    "brand": "Nescafé",
     "url": "https://www.nestle.in/brands/dairy/nescafe-cold-coffee",
     "checked_at": "2026-09-04T12:32:44.857703+00:00",
     "events": [
