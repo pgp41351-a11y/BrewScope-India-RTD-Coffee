@@ -1,6 +1,17 @@
 [
   {
     "brand": "Nescafé",
+    "url": "https://www.zepto.com/pn/nescafe-cafe-style-iced-latte-cold-coffee/pvid/35c93dee-67b3-4e06-82de-ae4d887d4a9d",
+    "checked_at": "2026-09-04T12:45:49.144962+00:00",
+    "events": [
+      {
+        "type": "new_source_snapshot",
+        "detail": "First successful observation recorded."
+      }
+    ]
+  },
+  {
+    "brand": "Nescafé",
     "url": "https://blinkit.com/prn/nescafe-cafe-style-iced-latte/prid/400926",
     "checked_at": "2026-09-04T12:40:38.165137+00:00",
     "events": [
