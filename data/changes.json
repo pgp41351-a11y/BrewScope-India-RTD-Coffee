@@ -2,6 +2,73 @@
   {
     "brand": "Nescafé",
     "url": "https://www.zepto.com/pn/nescafe-cafe-style-iced-latte-cold-coffee/pvid/35c93dee-67b3-4e06-82de-ae4d887d4a9d",
+    "checked_at": "2026-09-08T11:25:01.129066+00:00",
+    "events": [
+      {
+        "type": "no_change",
+        "detail": "No material change detected since previous check."
+      }
+    ]
+  },
+  {
+    "brand": "Sleepy Owl",
+    "url": "https://sleepyowl.co/collections/cold-brew-coffee",
+    "checked_at": "2026-09-08T11:25:01.129066+00:00",
+    "events": [
+      {
+        "type": "no_change",
+        "detail": "No material change detected since previous check."
+      }
+    ]
+  },
+  {
+    "brand": "POKKA",
+    "url": "https://pokkaindia.com/collections/coffee",
+    "checked_at": "2026-09-08T11:25:01.129066+00:00",
+    "events": [
+      {
+        "type": "page_content_changed",
+        "detail": "Source page content changed since previous check."
+      },
+      {
+        "type": "price_signal_added",
+        "detail": "New observed price signals: [699.0, 999.0, 1499.0]"
+      },
+      {
+        "type": "price_signal_removed",
+        "detail": "Previously observed price signals no longer found: [399.0]"
+      },
+      {
+        "type": "product_or_link_added",
+        "detail": "New product-like listing/link detected: 🎁 Ready to Drink Vanilla Milk Coffee 240ml (100% off)"
+      }
+    ]
+  },
+  {
+    "brand": "Blue Tokai",
+    "url": "https://bluetokaicoffee.com/collections/coffee-cans",
+    "checked_at": "2026-09-08T11:25:01.129066+00:00",
+    "events": [
+      {
+        "type": "no_change",
+        "detail": "No material change detected since previous check."
+      }
+    ]
+  },
+  {
+    "brand": "NERV",
+    "url": "https://drinknerv.com/",
+    "checked_at": "2026-09-08T11:25:01.129066+00:00",
+    "events": [
+      {
+        "type": "no_change",
+        "detail": "No material change detected since previous check."
+      }
+    ]
+  },
+  {
+    "brand": "Nescafé",
+    "url": "https://www.zepto.com/pn/nescafe-cafe-style-iced-latte-cold-coffee/pvid/35c93dee-67b3-4e06-82de-ae4d887d4a9d",
     "checked_at": "2026-09-07T12:41:21.667219+00:00",
     "events": [
       {
