@@ -2,6 +2,65 @@
   {
     "brand": "Nescafé",
     "url": "https://www.zepto.com/pn/nescafe-cafe-style-iced-latte-cold-coffee/pvid/35c93dee-67b3-4e06-82de-ae4d887d4a9d",
+    "checked_at": "2026-09-12T10:53:45.514283+00:00",
+    "events": [
+      {
+        "type": "no_change",
+        "detail": "No material change detected since previous check."
+      }
+    ]
+  },
+  {
+    "brand": "Sleepy Owl",
+    "url": "https://sleepyowl.co/collections/cold-brew-coffee",
+    "checked_at": "2026-09-12T10:53:45.514283+00:00",
+    "events": [
+      {
+        "type": "no_change",
+        "detail": "No material change detected since previous check."
+      }
+    ]
+  },
+  {
+    "brand": "POKKA",
+    "url": "https://pokkaindia.com/collections/coffee",
+    "checked_at": "2026-09-12T10:53:45.514283+00:00",
+    "events": [
+      {
+        "type": "page_content_changed",
+        "detail": "Source page content changed since previous check."
+      },
+      {
+        "type": "product_or_link_removed",
+        "detail": "Previously observed listing/link no longer detected: 🎁 Ready to Drink Vanilla Milk Coffee 240ml (100% off)"
+      }
+    ]
+  },
+  {
+    "brand": "Blue Tokai",
+    "url": "https://bluetokaicoffee.com/collections/coffee-cans",
+    "checked_at": "2026-09-12T10:53:45.514283+00:00",
+    "events": [
+      {
+        "type": "no_change",
+        "detail": "No material change detected since previous check."
+      }
+    ]
+  },
+  {
+    "brand": "NERV",
+    "url": "https://drinknerv.com/",
+    "checked_at": "2026-09-12T10:53:45.514283+00:00",
+    "events": [
+      {
+        "type": "no_change",
+        "detail": "No material change detected since previous check."
+      }
+    ]
+  },
+  {
+    "brand": "Nescafé",
+    "url": "https://www.zepto.com/pn/nescafe-cafe-style-iced-latte-cold-coffee/pvid/35c93dee-67b3-4e06-82de-ae4d887d4a9d",
     "checked_at": "2026-09-11T11:28:21.020463+00:00",
     "events": [
       {
