@@ -2,6 +2,61 @@
   {
     "brand": "Nescafé",
     "url": "https://www.zepto.com/pn/nescafe-cafe-style-iced-latte-cold-coffee/pvid/35c93dee-67b3-4e06-82de-ae4d887d4a9d",
+    "checked_at": "2026-09-16T11:43:00.220399+00:00",
+    "events": [
+      {
+        "type": "no_change",
+        "detail": "No material change detected since previous check."
+      }
+    ]
+  },
+  {
+    "brand": "Sleepy Owl",
+    "url": "https://sleepyowl.co/collections/cold-brew-coffee",
+    "checked_at": "2026-09-16T11:43:00.220399+00:00",
+    "events": [
+      {
+        "type": "no_change",
+        "detail": "No material change detected since previous check."
+      }
+    ]
+  },
+  {
+    "brand": "POKKA",
+    "url": "https://pokkaindia.com/collections/coffee",
+    "checked_at": "2026-09-16T11:43:00.220399+00:00",
+    "events": [
+      {
+        "type": "no_change",
+        "detail": "No material change detected since previous check."
+      }
+    ]
+  },
+  {
+    "brand": "Blue Tokai",
+    "url": "https://bluetokaicoffee.com/collections/coffee-cans",
+    "checked_at": "2026-09-16T11:43:00.220399+00:00",
+    "events": [
+      {
+        "type": "no_change",
+        "detail": "No material change detected since previous check."
+      }
+    ]
+  },
+  {
+    "brand": "NERV",
+    "url": "https://drinknerv.com/",
+    "checked_at": "2026-09-16T11:43:00.220399+00:00",
+    "events": [
+      {
+        "type": "no_change",
+        "detail": "No material change detected since previous check."
+      }
+    ]
+  },
+  {
+    "brand": "Nescafé",
+    "url": "https://www.zepto.com/pn/nescafe-cafe-style-iced-latte-cold-coffee/pvid/35c93dee-67b3-4e06-82de-ae4d887d4a9d",
     "checked_at": "2026-09-15T11:50:17.124227+00:00",
     "events": [
       {
@@ -1057,61 +1112,6 @@
       {
         "type": "monitor_error",
         "detail": "HTTPSConnectionPool(host='www.nerv.in', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.nerv.in', port=443): Failed to resolve 'www.nerv.in' ([Errno -2] Name or service not known)\"))"
-      }
-    ]
-  },
-  {
-    "brand": "Nescafé",
-    "url": "https://www.nestle.in/aboutus/businesses/foods-beverages/coffee",
-    "checked_at": "2026-09-03T19:16:08.978298+00:00",
-    "events": [
-      {
-        "type": "monitor_error",
-        "detail": "403 Client Error: Forbidden for url: https://www.nestle.in/aboutus/businesses/foods-beverages/coffee"
-      }
-    ]
-  },
-  {
-    "brand": "NERV",
-    "url": "https://www.nerv.in/",
-    "checked_at": "2026-09-03T19:16:08.978298+00:00",
-    "events": [
-      {
-        "type": "monitor_error",
-        "detail": "HTTPSConnectionPool(host='www.nerv.in', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.nerv.in', port=443): Failed to resolve 'www.nerv.in' ([Errno -2] Name or service not known)\"))"
-      }
-    ]
-  },
-  {
-    "brand": "Nescafé",
-    "url": "https://www.nestle.in/aboutus/businesses/foods-beverages/coffee",
-    "checked_at": "2026-09-03T19:10:57.151913+00:00",
-    "events": [
-      {
-        "type": "monitor_error",
-        "detail": "403 Client Error: Forbidden for url: https://www.nestle.in/aboutus/businesses/foods-beverages/coffee"
-      }
-    ]
-  },
-  {
-    "brand": "Sleepy Owl",
-    "url": "https://sleepyowl.co/collections/cold-brew-coffee",
-    "checked_at": "2026-09-03T19:10:57.151913+00:00",
-    "events": [
-      {
-        "type": "new_source_snapshot",
-        "detail": "First successful observation recorded."
-      }
-    ]
-  },
-  {
-    "brand": "POKKA",
-    "url": "https://pokkaindia.com/collections/coffee",
-    "checked_at": "2026-09-03T19:10:57.151913+00:00",
-    "events": [
-      {
-        "type": "new_source_snapshot",
-        "detail": "First successful observation recorded."
       }
     ]
   }
