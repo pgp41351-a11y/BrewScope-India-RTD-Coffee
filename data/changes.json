@@ -2,6 +2,69 @@
   {
     "brand": "Nescafé",
     "url": "https://www.zepto.com/pn/nescafe-cafe-style-iced-latte-cold-coffee/pvid/35c93dee-67b3-4e06-82de-ae4d887d4a9d",
+    "checked_at": "2026-10-06T13:23:08.257069+00:00",
+    "events": [
+      {
+        "type": "no_change",
+        "detail": "No material change detected since previous check."
+      }
+    ]
+  },
+  {
+    "brand": "Sleepy Owl",
+    "url": "https://sleepyowl.co/collections/cold-brew-coffee",
+    "checked_at": "2026-10-06T13:23:08.257069+00:00",
+    "events": [
+      {
+        "type": "no_change",
+        "detail": "No material change detected since previous check."
+      }
+    ]
+  },
+  {
+    "brand": "POKKA",
+    "url": "https://pokkaindia.com/collections/coffee",
+    "checked_at": "2026-10-06T13:23:08.257069+00:00",
+    "events": [
+      {
+        "type": "page_content_changed",
+        "detail": "Source page content changed since previous check."
+      },
+      {
+        "type": "price_signal_added",
+        "detail": "New observed price signals: [399.0]"
+      },
+      {
+        "type": "price_signal_removed",
+        "detail": "Previously observed price signals no longer found: [699.0]"
+      }
+    ]
+  },
+  {
+    "brand": "Blue Tokai",
+    "url": "https://bluetokaicoffee.com/collections/coffee-cans",
+    "checked_at": "2026-10-06T13:23:08.257069+00:00",
+    "events": [
+      {
+        "type": "no_change",
+        "detail": "No material change detected since previous check."
+      }
+    ]
+  },
+  {
+    "brand": "NERV",
+    "url": "https://drinknerv.com/",
+    "checked_at": "2026-10-06T13:23:08.257069+00:00",
+    "events": [
+      {
+        "type": "no_change",
+        "detail": "No material change detected since previous check."
+      }
+    ]
+  },
+  {
+    "brand": "Nescafé",
+    "url": "https://www.zepto.com/pn/nescafe-cafe-style-iced-latte-cold-coffee/pvid/35c93dee-67b3-4e06-82de-ae4d887d4a9d",
     "checked_at": "2026-10-05T14:49:33.893211+00:00",
     "events": [
       {
@@ -1041,61 +1104,6 @@
     "brand": "NERV",
     "url": "https://drinknerv.com/",
     "checked_at": "2026-09-17T11:47:57.255878+00:00",
-    "events": [
-      {
-        "type": "no_change",
-        "detail": "No material change detected since previous check."
-      }
-    ]
-  },
-  {
-    "brand": "Nescafé",
-    "url": "https://www.zepto.com/pn/nescafe-cafe-style-iced-latte-cold-coffee/pvid/35c93dee-67b3-4e06-82de-ae4d887d4a9d",
-    "checked_at": "2026-09-16T11:43:00.220399+00:00",
-    "events": [
-      {
-        "type": "no_change",
-        "detail": "No material change detected since previous check."
-      }
-    ]
-  },
-  {
-    "brand": "Sleepy Owl",
-    "url": "https://sleepyowl.co/collections/cold-brew-coffee",
-    "checked_at": "2026-09-16T11:43:00.220399+00:00",
-    "events": [
-      {
-        "type": "no_change",
-        "detail": "No material change detected since previous check."
-      }
-    ]
-  },
-  {
-    "brand": "POKKA",
-    "url": "https://pokkaindia.com/collections/coffee",
-    "checked_at": "2026-09-16T11:43:00.220399+00:00",
-    "events": [
-      {
-        "type": "no_change",
-        "detail": "No material change detected since previous check."
-      }
-    ]
-  },
-  {
-    "brand": "Blue Tokai",
-    "url": "https://bluetokaicoffee.com/collections/coffee-cans",
-    "checked_at": "2026-09-16T11:43:00.220399+00:00",
-    "events": [
-      {
-        "type": "no_change",
-        "detail": "No material change detected since previous check."
-      }
-    ]
-  },
-  {
-    "brand": "NERV",
-    "url": "https://drinknerv.com/",
-    "checked_at": "2026-09-16T11:43:00.220399+00:00",
     "events": [
       {
         "type": "no_change",
