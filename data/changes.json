@@ -2,6 +2,69 @@
   {
     "brand": "Nescafé",
     "url": "https://www.zepto.com/pn/nescafe-cafe-style-iced-latte-cold-coffee/pvid/35c93dee-67b3-4e06-82de-ae4d887d4a9d",
+    "checked_at": "2026-10-26T13:12:02.090074+00:00",
+    "events": [
+      {
+        "type": "no_change",
+        "detail": "No material change detected since previous check."
+      }
+    ]
+  },
+  {
+    "brand": "Sleepy Owl",
+    "url": "https://sleepyowl.co/collections/cold-brew-coffee",
+    "checked_at": "2026-10-26T13:12:02.090074+00:00",
+    "events": [
+      {
+        "type": "no_change",
+        "detail": "No material change detected since previous check."
+      }
+    ]
+  },
+  {
+    "brand": "POKKA",
+    "url": "https://pokkaindia.com/collections/coffee",
+    "checked_at": "2026-10-26T13:12:02.090074+00:00",
+    "events": [
+      {
+        "type": "no_change",
+        "detail": "No material change detected since previous check."
+      }
+    ]
+  },
+  {
+    "brand": "Blue Tokai",
+    "url": "https://bluetokaicoffee.com/collections/coffee-cans",
+    "checked_at": "2026-10-26T13:12:02.090074+00:00",
+    "events": [
+      {
+        "type": "page_content_changed",
+        "detail": "Source page content changed since previous check."
+      },
+      {
+        "type": "price_signal_removed",
+        "detail": "Previously observed price signals no longer found: [225.0, 475.0]"
+      },
+      {
+        "type": "product_or_link_removed",
+        "detail": "Previously observed listing/link no longer detected: Get 10% off on your first coffee purchase, use code - TRY10"
+      }
+    ]
+  },
+  {
+    "brand": "NERV",
+    "url": "https://drinknerv.com/",
+    "checked_at": "2026-10-26T13:12:02.090074+00:00",
+    "events": [
+      {
+        "type": "no_change",
+        "detail": "No material change detected since previous check."
+      }
+    ]
+  },
+  {
+    "brand": "Nescafé",
+    "url": "https://www.zepto.com/pn/nescafe-cafe-style-iced-latte-cold-coffee/pvid/35c93dee-67b3-4e06-82de-ae4d887d4a9d",
     "checked_at": "2026-10-25T11:39:22.974173+00:00",
     "events": [
       {
@@ -1053,69 +1116,6 @@
     "brand": "NERV",
     "url": "https://drinknerv.com/",
     "checked_at": "2026-10-07T13:31:43.531030+00:00",
-    "events": [
-      {
-        "type": "no_change",
-        "detail": "No material change detected since previous check."
-      }
-    ]
-  },
-  {
-    "brand": "Nescafé",
-    "url": "https://www.zepto.com/pn/nescafe-cafe-style-iced-latte-cold-coffee/pvid/35c93dee-67b3-4e06-82de-ae4d887d4a9d",
-    "checked_at": "2026-10-06T13:23:08.257069+00:00",
-    "events": [
-      {
-        "type": "no_change",
-        "detail": "No material change detected since previous check."
-      }
-    ]
-  },
-  {
-    "brand": "Sleepy Owl",
-    "url": "https://sleepyowl.co/collections/cold-brew-coffee",
-    "checked_at": "2026-10-06T13:23:08.257069+00:00",
-    "events": [
-      {
-        "type": "no_change",
-        "detail": "No material change detected since previous check."
-      }
-    ]
-  },
-  {
-    "brand": "POKKA",
-    "url": "https://pokkaindia.com/collections/coffee",
-    "checked_at": "2026-10-06T13:23:08.257069+00:00",
-    "events": [
-      {
-        "type": "page_content_changed",
-        "detail": "Source page content changed since previous check."
-      },
-      {
-        "type": "price_signal_added",
-        "detail": "New observed price signals: [399.0]"
-      },
-      {
-        "type": "price_signal_removed",
-        "detail": "Previously observed price signals no longer found: [699.0]"
-      }
-    ]
-  },
-  {
-    "brand": "Blue Tokai",
-    "url": "https://bluetokaicoffee.com/collections/coffee-cans",
-    "checked_at": "2026-10-06T13:23:08.257069+00:00",
-    "events": [
-      {
-        "type": "no_change",
-        "detail": "No material change detected since previous check."
-      }
-    ]
-  },
-  {
-    "brand": "NERV",
-    "url": "https://drinknerv.com/",
-    "checked_at": "2026-10-06T13:23:08.257069+00:00",
     "events": [
       {
         "type": "no_change",
